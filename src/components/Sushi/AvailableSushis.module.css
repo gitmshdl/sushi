@@ -1,0 +1,28 @@
+.sushis {
+  max-width: 60rem;
+  width: 90%;
+  margin: 2rem auto;
+  animation: sushis-appear 1s ease-out forwards;
+}
+
+.loading {
+  text-align: center;
+  color: black;
+}
+
+.error {
+  text-align: center;
+  color: red;
+}
+
+@keyframes sushis-appear {
+  from {
+    opacity: 0;
+    transform: translateY(3rem);
+  }
+
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
